@@ -5,6 +5,7 @@ export TERM="xterm-256color"
 
 alias ls='ls -pG'
 alias ll='ls -pGl'
+alias la='ls -pGla'
 
 export LEIN_ROOT=1
 
