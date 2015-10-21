@@ -20,7 +20,6 @@
 (install-if 'clojure-mode)
 (install-if 'magit)
 (install-if 'cider)
-(install-if 'clojure-test-mode)
 (install-if 'paredit)
 (install-if 'autopair)
 (install-if 'auto-complete)
