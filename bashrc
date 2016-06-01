@@ -9,7 +9,7 @@ alias la='ls -pGla'
 
 export LEIN_ROOT=1
 
-export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 export EDITOR=vim
 alias emacs='open -a /Applications/Emacs.app $1'
 
@@ -23,6 +23,7 @@ alias g=git
 alias gst="git st"
 
 alias aj="ag -G '\.(clj|cljs)$'"
+alias agcss="ag -G '\.(css|less)$'"
 
 alias highlight_clipboard="pbpaste | highlight --font-size 24 --font Inconsolata --style zenburn --syntax=js -O rtf | pbcopy"
 
@@ -230,3 +231,5 @@ fi)'
 
 # added by travis gem
 [ -f /Users/ian/.travis/travis.sh ] && source /Users/ian/.travis/travis.sh
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting

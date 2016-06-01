@@ -7,7 +7,7 @@
       '(("gnu" . "http://elpa.gnu.org/packages/")
         ("melpa-stable" . "http://stable.melpa.org/packages/")
         ("melpa" . "https://melpa.org/packages/")
-	("marmalade" . "http://marmalade-repo.org/packages/")))
+        ("marmalade" . "http://marmalade-repo.org/packages/")))
 (package-initialize)
 (defun install-if (name)
   (when (not (package-installed-p name))
@@ -26,12 +26,14 @@
 (install-if 'auto-complete)
 (install-if 'textmate)
 (install-if 'clj-refactor)
+(install-if 'highlight-chars)
 
 (require 'cljsbuild-mode)
 (require 'autopair)
 (require 'auto-complete-config)
 (require 'cider)
 (require 'clj-refactor)
+(require 'highlight-chars)
 
 (ac-config-default)
 (setq ac-delay 0.2)
@@ -83,6 +85,7 @@
   (put-clojure-indent 'this-as 'defun)
   (put-clojure-indent 'when-some '1)
   (put-clojure-indent 'if-some '1)
+  (put-clojure-indent 'try+ 0)
   (put 'specify 'clojure-backtracking-indent '((2)))
   (put 'specify! 'clojure-backtracking-indent '((2)))
   (put 'defcomponent 'clojure-backtracking-indent '((2)))
@@ -213,8 +216,12 @@ point."
 (setq-default whitespace-line-column 95)
 
 (add-hook 'textmate-mode-hook
-  (lambda ()
-    (define-key *textmate-mode-map* (kbd "M-<up>") nil)))
+          (lambda ()
+            (define-key *textmate-mode-map* (kbd "M-<up>") nil)))
+
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
+(add-hook 'font-lock-mode-hook 'hc-highlight-tabs)
+(add-hook 'font-lock-mode-hook 'hc-highlight-trailing-whitespace)
 
 (add-hook 'clojure-mode-hook
           #'(lambda ()
@@ -232,14 +239,14 @@ point."
               (local-set-key (kbd "C-c C-.") 'nrepl-fix-ns-decl)
               (local-set-key (kbd "C-c C-i") 'indent-whole-buffer)
               (local-set-key (kbd "C-c C-/") 'nrepl-clear-repl-and-test)
-              (add-hook 'before-save-hook 'indent-whole-buffer nil t)
+;;              (add-hook 'before-save-hook 'indent-whole-buffer nil t)
               (clj-refactor-mode 1)
               (cljr-add-keybindings-with-prefix "C-c C-a")
               ))
 
 (add-hook 'clojure-test-mode-hook
           #'(lambda ()
-              ;; sorry.  
+              ;; sorry.
               (defun clojure-test-extract-results (buffer results)
                 (with-current-buffer buffer
                   (let ((result-vars (read results)))
@@ -331,9 +338,9 @@ point."
 (add-hook 'cider-mode-hook 'cider-turn-on-eldoc-mode)
 
 (add-hook 'nrepl-interaction-mode-hook
-          #'(lambda () 
-	      (cider-turn-on-eldoc-mode)
-	      (define-key cider-mode-map (kbd "C-c C-c") 'nrepl-eval-expression-at-point-in-ns)))
+          #'(lambda ()
+              (cider-turn-on-eldoc-mode)
+              (define-key cider-mode-map (kbd "C-c C-c") 'nrepl-eval-expression-at-point-in-ns)))
 
 (setq nrepl-tab-command 'indent-for-tab-command)
 
@@ -451,12 +458,12 @@ point."
 
 ;; (load-theme 'tango-dark)
 ;; (load-theme 'solarized-dark t)
-(load-theme 'zenburn t)
+(load-theme 'seoul256 t)
 
-(add-hook 'before-save-hook 'delete-trailing-whitespace)
-(add-hook 'before-save-hook (lambda ()
-                              (untabify (point-min) (point-max))
-                              (indent-region (point-min) (point-max) nil)))
+;; (add-hook 'before-save-hook 'delete-trailing-whitespace)
+;; (add-hook 'before-save-hook (lambda ()
+;;                                (untabify (point-min) (point-max))
+;;                                (indent-region (point-min) (point-max) nil)))
 
 ;; from https://github.com/Wilfred/ag.el
 (defun set-exec-path-from-shell-PATH ()

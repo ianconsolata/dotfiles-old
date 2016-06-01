@@ -1,0 +1,294 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/idavis/circle/test/circle/http/" . "api/")
+ ("/Users/idavis/circle/src/circle/model/" . "api/")
+ ("/Users/idavis/frontend-private/test-cljs/frontend/" . "controllers/")
+ ("/Users/idavis/frontend-private/test-cljs/" . "frontend/")
+ ("/Users/idavis/frontend-private/resources/assets/js/" . "libs/")
+ ("/Users/idavis/circleci.com/outer/assets/" . "css/")
+ ("/Users/idavis/circleci.com/outer/" . "assets/")
+ ("/Users/idavis/circleci.com/" . "outer/")
+ ("/Users/idavis/frontend-private/resources/assets/css/shared/" . "mixins/")
+ ("/Users/idavis/frontend-private/resources/assets/css/" . "inner/")
+ ("/Users/idavis/frontend-private/resources/assets/" . "js/")
+ ("/Users/idavis/frontend-private/resources/" . "assets/")
+ ("/Users/idavis/enterprise-docs/assets/" . "aws/")
+ ("/Users/idavis/enterprise-docs/" . "_posts/")
+ ("/Users/idavis/circle/script/" . "deploy/")
+ ("/Users/idavis/enterprise-install/" . "CircleCIGracefulTermination/")
+ ("/Users/idavis/circle/test/circle/backend/" . "build/")
+ ("/Users/idavis/circle/src/circle/backend/build/" . "state/")
+ ("/Users/idavis/circle/src/circle/http/api/" . "admin/")
+ ("/Users/idavis/circle/src/circle/backend/api/" . "client/")
+ ("/Users/idavis/eng-lunch/src/" . "eng_lunch/")
+ ("/Users/idavis/eng-lunch/" . "src/")
+ ("/" . "Users/")
+ ("/Users/idavis/frontend-private/src-cljs/frontend/" . "utils/")
+ ("/Users/idavis/frontend-private/src-cljs/" . "frontend/")
+ ("/Users/idavis/frontend-private/" . "src-cljs/")
+ ("/Users/idavis/circle/src/circle/api/" . "client/")
+ ("/Users/idavis/circle/src/circle/backend/http/" . "api/")
+ ("/Users/idavis/circle/src/circle/backend/" . "tasks/")
+ ("/Users/idavis/circle/src/circle/http/" . "api/")
+ ("/Users/idavis/enterprise-install-scripts/" . "services-replicated/")
+ ("/Users/" . "idavis/")
+ ("/Users/idavis/circle/test/circle/" . "http/")
+ ("/Users/idavis/circle/test/" . "circle/")
+ ("/Users/idavis/circle/src/circle/" . "http/")
+ ("/Users/idavis/circle/src/" . "circle/")
+ ("/Users/idavis/circle/" . "src/")
+ ("/Users/idavis/" . "circle/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/idavis/circle/src/circle/http/"
+ "/Users/idavis/frontend-private/src-cljs/frontend/utils/"
+ "/Users/idavis/frontend-private/src-cljs/frontend/"
+ "/Users/idavis/frontend-private/src-cljs/frontend/controllers/"
+ "/Users/idavis/circle/src/circle/model/"
+ "/Users/idavis/frontend-private/src-cljs/frontend/api/"
+ "/Users/idavis/"
+ "/Users/idavis/frontend-private/src-cljs/frontend/components/"
+ "/Users/idavis/frontend-private/src-cljs/frontend/models/"
+ "/Users/idavis/circle/src/circle/backend/"
+ "/Users/idavis/circle/test/circle/http/"
+ "/Users/idavis/circle/test/circle/model/"
+ "/Users/idavis/circle/test/circle/backend/"
+ "/Users/idavis/circle/src/circle/vcs/"
+ "/Users/idavis/frontend-private/"
+ "/Users/idavis/frontend-private/test-cljs/frontend/controllers/"
+ "/Users/idavis/circle/src/circle/util/"
+ "/Users/idavis/circle/src/circle/backend/action/"
+ "/Users/idavis/frontend-private/resources/assets/js/libs/"
+ "/Users/idavis/frontend-private/src-cljs/js/"
+ "/Users/idavis/frontend-private/resources/assets/css/inner/"
+ "/Users/idavis/frontend-private/resources/assets/css/shared/mixins/"
+ "/Users/idavis/enterprise-docs/_posts/"
+ "/Users/idavis/enterprise-docs/"
+ "/Users/idavis/Desktop/"
+ "/Users/idavis/enterprise-install/"
+ "/Users/idavis/circle/src/circle/backend/model/"
+ "/Users/idavis/enterprise-docs/assets/aws/"
+ "/Users/idavis/circle/src/circle/backend/tasks/"
+ "/Users/idavis/circle/script/deploy/"
+ "/Users/idavis/enterprise-install/CircleCIGracefulTermination/"
+ "/Users/idavis/circle/test/circle/backend/build/"
+ "/Users/idavis/circle/src/circle/backend/build/"
+ "/Users/idavis/circle/src/circle/http/api/"
+ "/Users/idavis/circle/src/circle/backend/http/api/"
+ "/Users/idavis/circle/src/circle/api/client/"
+ "/Users/idavis/circle/src/circle/backend/api/client/"
+ "/Users/idavis/circle/src/circle/backend/container/"
+ "/Users/idavis/circle/src/circle/http/api/admin/"
+ "/tmp/"
+ "/Users/idavis/circle/src/circle/backend/http/"
+ "/Users/idavis/circle/src/circle/backend/lxc/"
+ "/Users/idavis/eng-lunch/"
+ "/Users/idavis/eng-lunch/src/eng_lunch/"
+ "/Users/idavis/circle/src/circle/github/"
+ "/Users/idavis/circle/src/circle/"
+ "/Users/idavis/enterprise-install-scripts/services-replicated/"
+ "/Users/idavis/enterprise-install-scripts/"
+ "/Users/idavis/circle/test/circle/github/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "api.clj"
+ "html.cljs"
+ "utils.cljs"
+ "history.cljs"
+ "navigation.cljs"
+ "core.cljs"
+ "routes.cljs"
+ "state.cljs"
+ "api1.clj"
+ "path.cljs"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/idavis/" (22265 41660 0 0) "VirtualBox VMs/" "travis-install/" "test-the-tester/" "support-testing/" "Support-Handbook/" "seoul256.el/" "seoul256-iTerm2/" "Public/" "Pictures/" "partyparrot/" "Music/" "Movies/" "long-test.html" "Library/" "large.txt" "ios-install-repl.clj" "ios-example/" "image-builder/" "frontend-private/" "enterprise-testing/" "enterprise-install-scripts/" "enterprise-install/" "enterprise-docs/" "eng-lunch/" "Downloads/" "Documents/" "docker-tutorial/" "dev-notes" "Desktop/" "clj-inference/" "circleci.com/" "circle/" "Applications/" ".zshrc" ".zlogin" ".z.4426" ".z" ".vimrc" ".viminfo" ".vim/" ".vagrant.d/" ".Trash/" ".thefuck/" ".terraform.d/" ".ssh/" ".spacemacs" ".rvm/" ".rnd" ".profile" ".otto.d/" ".oracle_jre_usage/" ".npm/" ".node_repl_history" ".node-gyp/" ".mkshrc" ".m2/" ".local/" ".lesshst" ".lein/" ".inputrc" ".htoprc" ".gnupg/" ".gitignore_global" ".gitconfig" ".git-prompt.sh" ".gem/" ".emacs_backups/" ".emacs.d.spacemacs/" ".emacs.d/" ".emacs" ".DS_Store" ".dotfiles/" ".docker/" ".config/" ".CFUserTextEncoding" ".cache/" ".boot/" ".bashrc" ".bash_profile" ".bash_history" ".aws/" ".atom/" "../" "./")
+
+ ("/Users/idavis/frontend-private/src-cljs/frontend/" (22265 41643 0 0) "zendesk.cljs" "utils.cljs" "utils.clj" "utils/" "timer.cljs" "support.cljs" "stripe.cljs" "stefon.cljs" "state.cljs" "scroll.cljs" "routes.cljs" "pusher.cljs" "models/" "localstorage.cljs" "intercom.cljs" "instrumentation.cljs" "history.cljs" "favicon.cljs" "extensions.cljs" "elevio.cljs" "disposable.cljs" "devtools.clj" "datetime.cljs" "core.cljs" "controllers/" "config.cljs" "components/" "browser_settings.cljs" "async.cljs" "api.cljs" "api/" "analytics.cljs" "analytics/" "ab.cljs" "../" "./")
+
+ ("/Users/idavis/frontend-private/src-cljs/frontend/components/" (22265 40338 0 0) "top_nav.cljs" "svg.cljs" "stories.cljs" "statuspage.cljs" "signup.cljs" "shared.cljs" "security.cljs" "project_settings.cljs" "project/" "privacy.cljs" "pricing.cljs" "press.cljs" "plans.cljs" "placeholder.cljs" "org_settings.cljs" "mobile.cljs" "license.cljs" "language_landing.cljs" "landing.cljs" "key_queue.cljs" "jobs.cljs" "invites.cljs" "integrations.cljs" "instrumentation.cljs" "inspector.cljs" "insights.cljs" "insights/" "inputs.cljs" "header.cljs" "forms.cljs" "footer.cljs" "features.cljs" "errors.cljs" "enterprise_landing.cljs" "enterprise.cljs" "drawings.cljs" "documentation.cljs" "docker.cljs" "dashboard.cljs" "crumbs.cljs" "contact_form.cljs" "common.cljs" "builds_table.cljs" "build_timings.cljs" "build_steps.cljs" "build_head.cljs" "build_config.cljs" "build.cljs" "aside.cljs" "app.cljs" "admin.cljs" "add_projects.cljs" "account.cljs" "../" "./")
+
+ ("/Users/idavis/frontend-private/src-cljs/frontend/controllers/" (22265 39813 0 0) "ws.cljs" "ws.clj" "navigation.cljs" "errors.cljs" "controls.cljs" "api.cljs" "../" "./")
+
+ ("/tmp/" (22265 30985 0 0) "mongodb-27017.sock" "KSOutOfProcessFetcher.502.ppfIhqX0vjaTSb8AJYobDV7Cu68=/" "com.apple.launchd.zMiSV3AxcM/" "com.apple.launchd.mYmEd3gVU6/" ".s.PGSQL.5432.lock" ".s.PGSQL.5432" "../" "./")
+
+ ("/Users/idavis/Desktop/" (22265 31017 0 0) "Screen Shot 2016-03-17 at 5.13.31 PM.png" "Screen Shot 2016-03-14 at 6.22.28 PM.png" "Screen Shot 2016-03-14 at 6.22.22 PM.png" "Screen Shot 2016-03-14 at 2.33.16 PM.png" "Screen Shot 2016-03-08 at 4.28.07 PM.png" "Screen Shot 2016-03-08 at 3.28.49 PM.png" "Screen Shot 2016-03-07 at 4.02.54 PM.png" "Screen Shot 2016-03-07 at 4.02.54 PM (2).png" "Screen Shot 2016-03-07 at 4.02.51 PM.png" "Screen Shot 2016-03-07 at 4.02.51 PM (2).png" "Screen Shot 2016-03-07 at 4.02.48 PM.png" "Screen Shot 2016-03-07 at 4.02.48 PM (2).png" "Screen Shot 2016-03-07 at 4.02.45 PM.png" "Screen Shot 2016-03-07 at 4.02.45 PM (2).png" "Screen Shot 2016-03-04 at 4.16.21 PM.png" "Screen Shot 2016-03-04 at 4.16.14 PM.png" "Screen Shot 2016-03-04 at 4.15.24 PM.png" "Screen Shot 2016-02-17 at 7.05.36 PM.png" "Screen Shot 2016-02-15 at 6.48.01 PM.png" "Screen Shot 2016-01-27 at 5.05.57 PM.png" "Screen Shot 2016-01-21 at 10.43.00 AM.png" "Screen Shot 2016-01-14 at 12.54.23 PM.png" "Screen Shot 2015-12-07 at 3.26.52 PM.png" "Screen Shot 2015-12-07 at 3.26.37 PM.png" "professor-zoom_1.jpg" "node_modules/" "nextdoor-keys/" "keys/" "graceful-shutdown-in-aws.tf" "graceful-downscaling.tf" "avant.png" "avant-.png" "Archive.zip" "63428f9f65c7c218a3b377bb11e38984.jpg" "2d20206d51ff4392099f220c4596d481.png" "1172885214134.gif" "0.txt" "0 kunal.webloc" ".localized" ".DS_Store" "#graceful-downscaling.tf#" "../" "./")
+
+ ("/Users/idavis/frontend-private/resources/assets/css/shared/mixins/" (22261 57713 0 0) "transforms.less" "tip.less" "skins.less" "forms.less" "flex.less" "buttons.less" "animations.less" "../" "./")
+
+ ("/Users/idavis/frontend-private/resources/assets/css/inner/" (22261 57713 0 0) "top-nav.less" "terminal.less" "settings.less" "settings/" "org.less" "new-build.less" "invites.less" "insights.less" "insights/" "inner.less" "icons.less" "edit-project-settings.less" "dashboard.less" "builds.less" "billing.less" "aside.less" "admin.less" "add-projects.less" "../" "./")
+
+ ("/Users/idavis/frontend-private/test-cljs/frontend/controllers/" (22261 57713 0 0) "ws_test.cljs" "controls_test.cljs" "api_test.cljs" "../" "./")
+
+ ("/Users/idavis/circle/test/circle/http/" (22261 49980 0 0) "test_utils.clj" "test_test_utils.clj" "test_stripe_hooks.clj" "test_stripe.clj" "test_ssl.clj" "test_server.clj" "test_request.clj" "test_pusher.clj" "test_pull_requests.clj" "test_proxy.clj" "test_projects.clj" "test_paths.clj" "test_outer.clj" "test_logging.clj" "test_intercom.clj" "test_identity.clj" "test_hooks.clj" "test_elevio.clj" "test_defpage.clj" "test_crawler.clj" "test_builds.clj" "test_authorization.clj" "test_auth.clj" "test_artifacts.clj" "test_api.clj" "server/" "routes/" "authentication/" "api/" "../" "./")
+
+ ("/Users/idavis/frontend-private/src-cljs/frontend/api/" (22265 34029 0 0) "path.cljs" "../" "./")
+
+ ("/Users/idavis/circle/" (22261 53871 0 0) "Vagrantfile" "test_data/" "test/" "target/" "start-in-vagrant" "src/" "secrets/" "script/" "resources/" "repos/" "README.md" "project.clj" "pallet/" "nrepl.log" "nrepl-2016-03-24.log.gz" "nrepl-2016-03-23.log.gz" "nrepl-2016-03-22.log.gz" "nrepl-2016-03-21.log.gz" "nrepl-2016-03-18.log.gz" "nrepl-2016-03-17.log.gz" "nrepl-2016-03-15.log.gz" "nginx-circle.conf" "master-ami-data" "master-20131030.id_rsa.pub" "git_ssh.sh" "enterprise/" "docs/" "Dockerfile" "docker-entrypoint.sh" "docker-compose.yml" "dev-resources/" "deploy/" "create-artifact.sh" "clean.sh" "circle.yml" "circle.log" "circle-2016-03-24.log.gz" "circle-2016-03-23.log.gz" "circle-2016-03-22.log.gz" "circle-2016-03-21.log.gz" "circle-2016-03-18.log.gz" "circle-2016-03-17.log.gz" "circle-2016-03-15.log.gz" "circle-2016-03-04.log.gz" "blog/" ".lein-repl-history" ".lein-env" ".gitmodules" ".gitignore" ".gitattributes" ".git/" ".dockerignore" "../" "./")
+
+ ("/Users/idavis/.dotfiles/" (22261 58070 0 0) "zenburn.itermcolors" "vimrc" "vim/" "gitignore_global" "gitconfig" "git-prompt.sh" "emacs.d/" "emacs" "bashrc" "bash_profile" ".git/" "../" "./")
+
+ ("/Users/idavis/frontend-private/" (22261 57713 0 0) "test-js/" "test-cljs/" "test/" "target/" "src-cljs/" "src/" "script/" "resources/" "README.md" "project.clj" "Procfile.alt" "Procfile" "package.json" "node_modules/" "LICENSE" "karma.test.conf.js" "karma.dev.conf.js" "figwheel_server.log" "etc/" "docs/" "Dockerfile" "docker-entrypoint.sh" "docker-compose.yml" "devtools/" "dev-resources/" "circle.yml" "bower.json" ".lein-env" ".gitignore" ".git/" ".dockerignore" ".bowerrc" "../" "./")
+
+ ("/Users/idavis/frontend-private/src-cljs/frontend/models/" (22261 57713 0 0) "user.cljs" "test.cljs" "repo.cljs" "project.cljs" "plan.cljs" "organization.cljs" "feature.cljs" "container.cljs" "build.cljs" "action.cljs" "../" "./")
+
+ ("/Users/idavis/frontend-private/src-cljs/frontend/utils/" (22234 1480 0 0) "vcs_url.cljs" "state.cljs" "seq.cljs" "launchdarkly.cljs" "html.cljs" "github.cljs" "docs.cljs" "bitbucket.cljs" "ajax.cljs" "../" "./")
+
+ ("/Users/idavis/circle/src/circle/http/" (22261 45172 0 0) "zendesk.clj" "test.clj" "stripe_hooks.clj" "stripe.clj" "ssl.clj" "session_expiry.clj" "server.clj" "server/" "routes/" "request.clj" "pusher.clj" "pull_requests.clj" "proxy.clj" "paths.clj" "middleware.clj" "methods.clj" "logging.clj" "intercom.clj" "injections.clj" "identity.clj" "exceptions.clj" "elevio.clj" "defpage.clj" "csrf.clj" "builds.clj" "bot.clj" "authorization.clj" "authentication.clj" "authentication/" "auth.clj" "artifacts.clj" "api.clj" "api/" "../" "./")
+
+ ("/Users/idavis/circle/test/circle/http/api/" (22252 28991 0 0) "test_validate.clj" "test_metadata.clj" "test_hooks.clj" "test_admin_commands.clj" "test_admin.clj" "../" "./")
+
+ ("/Users/idavis/circle/test/circle/model/" (22261 45157 0 0) "test_user_project_perm.clj" "test_user.clj" "test_test.clj" "test_settings.clj" "test_scope.clj" "test_pull_request.clj" "test_project.clj" "test_plan.clj" "test_organization.clj" "test_github_json.clj" "test_gauges.clj" "test_exclusive_lock.clj" "test_code_signing.clj" "test_build.clj" "test_artifact_nonce.clj" "test_api1.clj" "test_action_log.clj" "api/" "../" "./")
+
+ ("/Users/idavis/circle/test/circle/" (22252 28991 0 0) "webdriver/" "web/" "vcs/" "util/" "test_utils.clj" "test_types.clj" "test_test_utils.clj" "test_secrets.clj" "test_scheduler.clj" "test_s3.clj" "test_rollbar.clj" "test_pusher.clj" "test_notifications.clj" "test_middleware.clj" "test_license_manager.clj" "test_internal_alerts.clj" "test_installation_level_user_settings.clj" "test_github.clj" "test_feature.clj" "test_evil.clj" "test_email.clj" "test_dev_secrets.clj" "test_db.clj" "test_datadog.clj" "test_config.clj" "test_capabilities.clj" "test_build_diagnostics.clj" "test_bitbucket.clj" "test_analytics.clj" "test/" "stripe/" "secrets/" "scaler/" "run_smoke_test.clj" "rollbar/" "pusher/" "phantomjs.clj" "model/" "http/" "heroku/" "github/" "enterprise/" "deploy/" "bitbucket/" "backend/" "aws/" "api/" "analytics/" "../" "./")
+
+ ("/Users/idavis/circle/src/circle/model/" (22261 45172 0 0) "user_project_perm.clj" "user.clj" "user/" "test.clj" "settings.clj" "scope.clj" "pull_request.clj" "project.clj" "plan_template.clj" "plan.clj" "output_running.clj" "organization.clj" "github_json.clj" "github_api_cache.clj" "gauges.clj" "feature.clj" "exclusive_lock.clj" "code_signing.clj" "build.clj" "artifact_nonce.clj" "api1.clj" "api/" "action_log.clj" "../" "./")
+
+ ("/Users/idavis/circle/test/circle/github/" (22247 11799 0 0) "test_utils.clj" "test_user.clj" "test_urls.clj" "test_test_utils.clj" "test_status.clj" "test_repo.clj" "test_organization.clj" "test_init.clj" "test_compatibility.clj" "test_commit.clj" "test_cache.clj" "test_auth.clj" "test_application.clj" "../" "./")
+
+ ("/Users/idavis/circle/src/circle/model/api/" (22212 54253 0 0) "project.clj" "../" "./")
+
+ ("/Users/idavis/circle/src/circle/github/" (22247 11799 0 0) "user.clj" "urls.clj" "system_status.clj" "status.clj" "repo_map.clj" "repo.clj" "organization.clj" "init.clj" "compatibility.clj" "commit.clj" "collaborators.clj" "cache.clj" "auth.clj" "application.clj" "admin.clj" "../" "./")
+
+ ("/Users/idavis/circle/src/circle/backend/lxc/" (22247 11799 0 0) "enforcement.clj" "diagnostics.clj" "cpus.clj" "config.clj" "../" "./")
+
+ ("/Users/idavis/circle/src/circle/http/api/admin/" (22252 28991 0 0) "util.clj" "human.clj" "../" "./")
+
+ ("/Users/idavis/circle/src/circle/backend/container/" (22256 17056 0 0) "util.clj" "lxc.clj" "esxi.clj" "config.clj" "cache_creation.clj" "../" "./")
+
+ ("/Users/idavis/circle/src/circle/backend/http/api/" (22256 17056 0 0) "admin_commands.clj" "admin_commands/" "admin.clj" "../" "./")
+
+ ("/Users/idavis/circle/src/circle/http/api/" (22252 28991 0 0) "validate.clj" "metadata.clj" "admin_commands.clj" "admin.clj" "admin/" "../" "./")
+
+ ("/Users/idavis/circle/src/circle/backend/build/" (22256 17056 0 0) "usage_queue.clj" "state.clj" "state/" "ssh.clj" "run_queue.clj" "run_queue/" "run.clj" "retry.clj" "refs.clj" "notify.clj" "minimal.clj" "message_queue.clj" "inference.clj" "inference/" "http_hook.clj" "config_policy.clj" "config.clj" "config/" "cancel.clj" "cache.clj" "../" "./")
+
+ ("/Users/idavis/circle/src/circle/backend/tasks/" (22256 17056 0 0) "splunk.clj" "rollback.clj" "extract_ssl_certs.clj" "deploy_web_only.clj" "deploy_socks_proxy.clj" "deploy_dispatcher.clj" "deploy.clj" "../" "./")
+
+ ("/Users/idavis/enterprise-docs/assets/aws/" (22243 8821 0 0) "cloudformation.py" "circleci.tf.txt" "circleci.tf" "circleci-iam-policy.json" "circleci-iam-policy-s3-only.json" "../" "./")
+
+ ("/Users/idavis/enterprise-docs/_posts/" (22243 8864 0 0) "2015-01-01-whycci.md" "2015-01-01-upgrade-to-GA.md" "2015-01-01-proxy.md" "2015-01-01-overview.md" "2015-01-01-on-prem.md" "2015-01-01-logging.md" "2015-01-01-ios.md" "2015-01-01-ios-install.md" "2015-01-01-faq.md" "2015-01-01-failover.md" "2015-01-01-export-import-projects.md" "2015-01-01-docker.md" "2015-01-01-custom-ca.md" "2015-01-01-config.md" "2015-01-01-cloudwatch.md" "2015-01-01-changelog.md" "2015-01-01-aws.md" "../" "./")
+
+ ("/Users/idavis/circle/src/circle/util/" (22252 28991 0 0) "xvfb.clj" "xml.clj" "validate.clj" "utm.clj" "url.clj" "uri.clj" "typed_string.clj" "typecheck.clj" "type/" "timing.clj" "thread.clj" "table.clj" "straight_jacket.clj" "smtp.clj" "set.clj" "s3_versioned_resource.clj" "retry.clj" "ps.clj" "predicates.clj" "pallet.clj" "numeric.clj" "ns.clj" "network.clj" "mongo.clj" "mongo/" "mime.clj" "metrics.clj" "math.clj" "macro.clj" "limited_string_writer.clj" "launchdarkly.clj" "java/" "inflections.clj" "hystrix.clj" "humanize.clj" "http.clj" "html.clj" "hostname.clj" "github.clj" "env_var.clj" "compare.clj" "coerce.clj" "chan.clj" "args.clj" "../" "./")
+
+ ("/Users/idavis/circle/src/circle/vcs/" (22249 43119 0 0) "user.clj" "status.clj" "repo.clj" "organization.clj" "interface.clj" "../" "./")
+
+ ("/Users/idavis/circle/test/circle/backend/" (22259 7414 0 0) "util/" "test_utils.clj" "test_types.clj" "test_test_utils.clj" "test_tasks.clj" "test_system.clj" "test_ssh.clj" "test_message.clj" "test_lxc.clj" "test_load_balancer.clj" "test_git.clj" "test_gauges.clj" "test_fleet.clj" "test_experiment.clj" "test_event.clj" "test_ec2.clj" "test_disk.clj" "test_container.clj" "test_clj_inference.clj" "test_canary_builds.clj" "test_action.clj" "tasks/" "ssh/" "model/" "lxc/" "integration/" "http/" "git/" "gauges/" "disk/" "container_fs/" "container/" "build/" "api/" "admin/" "action/" "../" "./")
+
+ ("/Users/idavis/circle/src/circle/backend/" (22257 59721 0 0) "util/" "tasks.clj" "tasks/" "system.clj" "nodes.clj" "nodes/" "network/" "model/" "message.clj" "message/" "lxc.clj" "lxc/" "load_balancer.clj" "instance_type.clj" "instance_tags.clj" "init.clj" "http/" "git.clj" "git/" "gauges.clj" "gauges/" "fleet.clj" "experiment.clj" "event.clj" "ec2.clj" "disk.clj" "disk/" "container_fs.clj" "container_fs/" "container.clj" "container/" "clj_inference.clj" "canary_builds.clj" "build/" "api/" "admin/" "action.clj" "action/" "../" "./")
+
+ ("/Users/idavis/circle/src/circle/" (22256 17056 0 0) "web/" "vcs.clj" "vcs/" "util/" "usage_stats.clj" "uberjar_init.clj" "test.clj" "test/" "storage.clj" "smoke_test.clj" "secrets.clj" "secrets/" "scheduler.clj" "scaler/" "s3.clj" "rollbar.clj" "rollbar/" "repl.clj" "pusher.clj" "pallet/" "nrepl.clj" "nrepl/" "notifications.clj" "notifications/" "monkey_patch_clojure_test.clj" "model/" "middleware.clj" "logging.clj" "license_manager.clj" "internal_alerts/" "instance_tags.clj" "installation_level_user_settings.clj" "init.clj" "http/" "heroku/" "github/" "gce/" "gauges.clj" "feature.clj" "evil.clj" "env_config.clj" "env.clj" "enterprise/" "email.clj" "dns.clj" "dispatcher/" "dev_secrets.clj" "deploy/" "debug.clj" "db.clj" "db/" "datadog.clj" "config.clj" "capabilities.clj" "build_diagnostics.clj" "bitbucket/" "billing/" "backend/" "aws/" "api/" "analytics.clj" "analytics/" "admin/" "../" "./")
+
+ ("/Users/idavis/.emacs.d/" (22251 4339 0 0) "url/" "seoul256-theme.el" "ido.last" "elpa/" "auto-save-list/" "ac-comphist.dat" "../" "./")
+
+ ("/Users/idavis/.emacs.d/elpa/" (22251 8439 0 0) "zenburn-theme-2.1/" "yasnippet-0.8.0/" "undo-tree-0.6.5/" "textmate-5/" "terraform-mode-readme.txt" "terraform-mode-0.4/" "spinner-1.7/" "solarized-theme-1.0.0/" "seq-1.11/" "seoul256-theme-readme.txt" "seoul256-theme-20150714.1535/" "s-1.9.0/" "queue-0.1.1/" "popup-0.5/" "pkg-info-0.5/" "paredit-22/" "multiple-cursors-1.3.0/" "magit-1.2.0/" "less-css-mode-20150511.319/" "js2-mode-20140114/" "highlight-chars-20151231.1335/" "hcl-mode-20151002.2049/" "goto-last-change-1.2/" "epl-0.7/" "dash-2.5.0/" "clojurescript-mode-0.5/" "clojure-test-mode-3.0.0/" "clojure-mode-20160314.2147/" "clojure-mode-2.1.1/" "cljsbuild-mode-0.2.0/" "clj-refactor-0.10.0/" "cider-readme.txt" "cider-0.11.0/" "autopair-0.3/" "auto-complete-1.4/" "archives/" "../" "./")
+
+ ("/Users/idavis/.emacs.d/elpa/cider-0.11.0/" (22251 7838 0 0) "nrepl-client.elc" "nrepl-client.el" "cider.elc" "cider.el" "cider-util.elc" "cider-util.el" "cider-test.el" "cider-stacktrace.elc" "cider-stacktrace.el" "cider-selector.elc" "cider-selector.el" "cider-scratch.elc" "cider-scratch.el" "cider-resolve.elc" "cider-resolve.el" "cider-repl.el" "cider-popup.elc" "cider-popup.el" "cider-pkg.el" "cider-overlays.elc" "cider-overlays.el" "cider-mode.el" "cider-macroexpansion.elc" "cider-macroexpansion.el" "cider-interaction.el" "cider-inspector.elc" "cider-inspector.el" "cider-grimoire.elc" "cider-grimoire.el" "cider-eldoc.elc" "cider-eldoc.el" "cider-doc.elc" "cider-doc.el" "cider-debug.elc" "cider-debug.el" "cider-compat.elc" "cider-compat.el" "cider-common.elc" "cider-common.el" "cider-client.elc" "cider-client.el" "cider-classpath.elc" "cider-classpath.el" "cider-browse-ns.elc" "cider-browse-ns.el" "cider-autoloads.el" "cider-apropos.el" "../" "./")
+
+ ("/Users/idavis/circle/src/circle/backend/action/" (22248 42955 0 0) "vcs.clj" "tag.clj" "recipe.clj" "recipe/" "nodes_local.clj" "nodes_ec2.clj" "nodes.clj" "load_balancer.clj" "junit.clj" "inference_daemon.clj" "deployment.clj" "code_signing.clj" "canary.clj" "cache.clj" "bash.clj" "artifacts.clj" "analytics.clj" "../" "./")
+
+ ("/Users/idavis/frontend-private/test-cljs/frontend/" (22234 1480 0 0) "utils_test.cljs" "test_utils.cljs" "test_runner.cljs" "test_routes.cljs" "test_pusher.cljs" "test_macros.clj" "test_datetime.cljs" "sample_test.cljs" "models/" "controllers/" "components/" "../" "./")
+
+ ("/Users/idavis/frontend-private/test-cljs/" (22234 1480 0 0) "frontend/" "../" "./")
+
+ ("/Users/idavis/frontend-private/test/" (22057 31624 0 0) "frontend/" "edn/" "../" "./")
+
+ ("/Users/idavis/frontend/" (22184 993 0 0) "test-js/" "test-cljs/" "test/" "src-cljs/" "src/" "script/" "resources/" "README.md" "project.clj" "Procfile" "package.json" "LICENSE" "karma.test.conf.js" "karma.dev.conf.js" "etc/" "docs/" "Dockerfile" "docker-entrypoint.sh" "docker-compose.yml" "circle.yml" "bower.json" ".gitignore" ".git/" ".dockerignore" ".bowerrc" "../" "./")
+
+ ("/Users/idavis/.emacs.d/elpa/highlight-chars-20151231.1335/" (22243 12510 0 0) "highlight-chars.elc" "highlight-chars.el" "highlight-chars-pkg.elc" "highlight-chars-pkg.el" "highlight-chars-autoloads.el" "../" "./")
+
+ ("/Users/idavis/enterprise-install-scripts/" (22231 36368 0 0) "terraform/" "services-replicated/" "services/" "requirements.txt" "README.md" "provision-services.sh" "provision-builder.sh" "machine-images.json" "lxc-mirror/" "install-packer.sh" "install-packer-azure.sh" "init-services.sh" "init-builder.sh" "init-builder-0.2.sh" "Gemfile" "fabfile.py" "circle.yml" "circle-diagnostic/" "builder-dependencies/" "builder/" "admin/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/idavis/enterprise-install-scripts/services-replicated/" (22231 30591 0 0) "scripts/" "replicated.yml" "circle-splash.conf" "bin/" "../" "./")
+
+ ("/Users/idavis/circle/test/circle/backend/build/" (22234 1476 0 0) "test_usage_queue.clj" "test_state.clj" "test_ssh.clj" "test_run_queue.clj" "test_run_build.clj" "test_run.clj" "test_retry.clj" "test_notify.clj" "test_message_queue.clj" "test_inference.clj" "test_http_hook.clj" "test_config.clj" "test_cancel.clj" "test_cache.clj" "test_add_build_to_project.clj" "state/" "run_queue/" "inference/" "config/" "../" "./")
+
+ ("/Users/idavis/circle/src/circle/backend/model/" (22234 1476 0 0) "esxi_vm.clj" "container.clj" "build_queue.clj" "../" "./")
+
+ ("/Users/idavis/enterprise-install/" (22228 52035 0 0) "terraform.tfvars" "terraform.tfstate.backup" "terraform.tfstate" "node_modules/" "idavis-dev.pub" "ian-davis-unstable.rli" "credentials.csv" "CircleCIGracefulTermination.zip" "CircleCIGracefulTermination.js" "circleci.tf" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/idavis/frontend-private/resources/assets/js/libs/" (22234 1480 0 0) "terminal.coffee" "phantomjs-hack.js" "asset-path.coffee" "../" "./")
+
+ ("/Users/idavis/frontend-private/resources/assets/js/" (22234 1480 0 0) "stefon-hack-for-om.coffee.ref" "setup-frontend.coffee" "outer/" "om-whitespace.js.stefon" "om-production.js.stefon" "om-dev.js.stefon" "module_setup.coffee" "libs/" "hosted/" "common.js.stefon" "bootstrap.js.stefon" "../" "./")
+
+ ("/Users/idavis/frontend-private/src-cljs/js/" (22234 1480 0 0) "react-externs.js" "pusher-externs.js" "prismjs-externs.js" "launchdarkly-externs.js" "intercom-jquery-externs.js" "d3-externs.js" "ci-externs.js" "bootstrap-externs.js" "analytics-externs.js" "../" "./")
+
+ ("/Users/idavis/circleci.com/outer/assets/css/" (22237 62112 0 0) "vendors/" "pages/" "mixins/" "components/" "base/" "../" "./")
+
+ ("/Users/idavis/circleci.com/outer/assets/" (22237 62113 0 0) "js/" "img/" "fonts/" "etc/" "css/" "../" "./")
+
+ ("/Users/idavis/circleci.com/outer/" (22237 62113 0 0) "legal/" "assets/" "../" "./")
+
+ ("/Users/idavis/circleci.com/_includes/" (22237 62112 0 0) "update.html" "tag-manager.html" "subnav-stories.html" "subnav-mobile.html" "subnav-integrations.html" "subnav-enterprise.html" "subnav-about.html" "social-buttons.html" "segment.html" "rss-link.html" "rss-item.xml" "quotes-slider-section.html" "question-icon-svg.html" "nav.html" "mixpanel.html" "love-slider.html" "language-background.html" "footer.html" "footer-cta.html" "enterprise-form.html" "enterprise-background.html" "docker-diagram-temp.html" "customer-logo-error.html" "circle-logo.html" "btn-svg.html" "blog-tag-bar.html" "blog-social.html" "blog-post-list.html" "blog-author-avatar.html" "../" "./")
+
+ ("/Users/idavis/circleci.com/" (22237 62127 0 0) "webpack.config.js" "signup/" "security/" "robots.txt" "README.md" "privacy/" "pricing/" "press/" "package.json" "outer/" "mobile/" "love/" "links.jsonp" "LICENCE.md" "jobs/" "integrations/" "index.html" "img/" "Gemfile.lock" "Gemfile" "features/" "enterprise/" "docs-sitemap.txt" "customers/" "csscomb.json" "contact/" "circle.yml" "changelog/" "bower.json" "blog.rss" "blog/" "bin/" "about/" "_site/" "_posts/" "_plugins/" "_layouts/" "_includes/" "_data/" "_config_production.yml" "_config_development.yml.example" "_config.yml" "500.html" "404.html" "401.html" ".sass-cache/" ".gitignore" ".git/" ".bowerrc" ".babelrc" "../" "./")
+
+ ("/Users/idavis/frontend-private/resources/assets/css/shared/" (22234 1480 0 0) "variables.less" "typography.less" "shared.less" "shame.less" "quotes.less" "pricing.less" "new-pricing.less" "new-home.less" "mixins/" "ico.less" "header.less" "general.less" "functions.less" "flash.less" "drawings.less" "customers_trust.less" "cta.less" "../" "./")
+
+ ("/Users/idavis/frontend-private/resources/assets/css/" (22234 1572 0 0) "shared/" "prism/" "outer/" "octicons/" "material-design/" "inner/" "font-awesome/" "components.less" "components/" "c3/" "bootstrap/" "app.css.less" "app.css" "../" "./")
+
+ ("/Users/idavis/frontend-private/resources/assets/" (22057 31624 0 0) "vendor/" "js/" "img/" "docs/" "css/" ".gitkeep" "../" "./")
+
+ ("/Users/idavis/frontend-private/resources/" (22234 2311 0 0) "public/" "devcards.html" "components/" "assets/" "app.css.map" "../" "./")
+
+ ("/Users/idavis/enterprise-docs/assets/stylesheets/" (22232 61017 0 0) "styles.css" "pygments.css" "circle.css" "bootstrap.min.css" "bootstrap-docs.css" "../" "./")
+
+ ("/Users/idavis/Downloads/" (22228 52015 0 0) "zoomusLauncher.zip" "zoomusLauncher.app/" "ZoomInstaller.pkg" "ycombinator.rli" "ycombinator (1).rli" "www.log" "www (1).log" "UIePvxBXSIp-latest.txt" "UIePvxBXSIp-latest.md" "UIePvxBXSIp-latest (1).txt" "UIePvxBXSIp-latest (1).md" "trend-micro.rli" "trend-micro.jpg" "TRAVIS__stanford-robotics-lab.rli" "time-inc.rli" "support-bundle.tgz" "support-bundle (2).tgz" "support-bundle (1).tgz" "support--internal.rli" "support--internal (3).rli" "support--internal (2).rli" "support--internal (1).rli" "staging-mongo-idavis.txt.gpg" "SpotifyInstaller.zip" "solarized.zip" "solarized/" "self-mahmood.rli" "screenshot.jpg" "Screen Shot 2016-01-20 at 5.10.12 PM.png" "Screen Shot 2015-11-03 at 00.14.27.png" "roboto.zip" "roboto 2/" "roboto/" "replicated-support963748846.tar.gz" "replicated-support963748846-1.tar.gz" "replicated-support963748846 2/" "replicated-support963748846/" "replicated-support958507783.tar.gz" "replicated-support958507783/" "replicated-support888367948.tar.gz" "replicated-support888367948/" "replicated-support822549528.tar.gz" "replicated-support822549528/" "replicated-support804239875.tar.gz" "replicated-support804239875 3/" "replicated-support804239875 2/" "replicated-support804239875/" "replicated-support769952903.tar.gz" "replicated-support769952903 (2).tar.gz" "replicated-support769952903 (1).tar.gz" "replicated-support769952903/" "replicated-support767716441.tar.gz" "replicated-support767716441/" "replicated-support706228178.tar.gz" "replicated-support706228178/" "replicated-support440886864.tar.gz" "replicated-support440886864/" "replicated-support305112618.tar.gz" "replicated-support305112618 2/" "replicated-support305112618 (1).tar.gz" "replicated-support305112618/" "replicated-support262998810.tar.gz" "replicated-support262998810/" "replicated-support245504179.tar.gz" "replicated-support245504179 (1).tar.gz" "replicated-support245504179/" "replicated-support239893961.tar.gz" "replicated-support239893961/" "replicated-support224638985.tar.gz" "replicated-support224638985/" "replicated-support215366592.tar.gz" "replicated-support215366592/" "replicated-support214284469.tar.gz" "replicated-support214284469/" "replicated-support179844581.tar.gz" "replicated-support179844581/" "replicated-support110026782.tar.gz" "replicated-support110026782 3/" "replicated-support110026782 2/" "replicated-support110026782 (3).tar.gz" "replicated-support110026782 (2).tar.gz" "replicated-support110026782 (1).tar.gz" "replicated-support110026782/" "replicated-support002554635.tar.gz" "replicated-support002554635/" "replicated-support001072967.tar.gz" "replicated-support001072967/" "redis_agent_unit_result.xml" "redis_agent_coverage.xml" "recruit-circleci.rli" "recruit-circleci-1.rli" "project_import_export.clj" "project_import_export (1).clj" "PIIA-CircleCI-Davis-20151016 -- SIGNED.pdf" "paypal.rli" "part_xctool.log" "parrots.zip" "parrots/" "parror.gif" "OmmWriter_Dana_II.dmg" "Mutual-NonDisclosure-CircleCI-Davis-20151016.pdf" "Mutual-NonDisclosure-CircleCI-Davis-20151016 -- SIGNED.pdf" "move-circleci.rli" "Mou.zip" "moom322.dmg" "Microsoft_Office_2016_Installer.pkg" "lyst.rli" "ls_mnt_dev.log" "lookout-circleci.rli" "logs.tar.gz" "logs/" "log/" "JohnnyBravo.gif" "johnny-bravo1395312667.jpg" "johnny bravo.jpg" "jdk-8u66-macosx-x64.dmg" "james-dean.jpg" "iTerm2-2_1_1.zip" "istatmenus4.22.zip" "ip" "ios_builder.pub" "Install Spotify.app/" "init-builder.sh" "init-builder-mac.sh" "init-builder-mac-bleeding-edge.sh" "init-builder-mac-bleeding-edge (2).sh" "init-builder-mac-bleeding-edge (1).sh" "init-builder-0.2.sh" "imgur.rli" "imgur (1).rli" "iMDuIGtWr6i-latest.txt" "iMDuIGtWr6i-latest.md" "iMDuIGtWr6i-latest (2).md" "iMDuIGtWr6i-latest (1).txt" "iMDuIGtWr6i-latest (1).md" "id_rsa_imgur.gpg" "id_rsa_administrator.gpg" "id_rsa_administrator (2).gpg" "id_rsa_administrator (1).gpg" "id_rsa.pub" "IanDavis-492e6aa8-b3b0-4fc1-b636-36b0b9675aab.onepassword-license" "ian.jpeg" "ian-dev-2.pem" "home-depot.rli" "graceful-shutdown-in-aws.tf" "graceful-downscaling.tf" "GPG_Suite-2015.09.dmg" "googlechrome.dmg" "github-support-bundle 3/" "github-support-bundle 2/" "github-support-bundle/" "Getting Started with AWS.azw3" "generate" "general-unstable.rli" "for-ian.tar.gz.gpg" "for-ian.tar.gz" "for-ian/" "Fluid_1.8.4.zip" "Fluid.app/" "fight-on-wednesdays.pptx" "fender-circleci.rli" "fanatics.rli" "Evernote_RELEASE_6.1.1_452253.dmg" "Emacs-24.5-1-universal.dmg" "DockerToolbox-1.9.0d.pkg" "Divvy.zip" "dena.rli" "david-bowie-trucco-uomo_470x305.jpg" "credentials.csv" "composeio.rli" "Citrix Online Launcher.dmg" "Citrix Online Launcher (1).dmg" "CircleCI_Offer_Letter_Ian_Davis_2015-10-16 -- SIGNED.pdf" "CircleCI_Offer_Letter_Ian_Davis_2015-10-16 (2).pdf" "CircleCI_Offer_Letter_Ian_Davis_2015-10-16 (1).pdf" "circleci.zip" "circleci.tf.txt" "circleci.tf" "circleci.template" "circleci-services.cf.json" "circleci-builder.cf.json" "circleci-builder.cf (1).json" "circleci - forter/" "circleci (2).tf" "circleci (2).template" "circleci (1).tf" "circleci (1).template" "circle_mac.pub" "circle_i-254c16a8.log" "circle.yml" "circle.log.zip" "circle.log.txt" "circle.log" "circle-logs (1).tar.bz2" "circle-image.log" "circle-diagnostic.txt" "circle-builder_0.1.4_amd64.tar.gz" "circle-builder.tar.gz" "circle-builder/" "circle-192-168-211-51.zip" "circle-192-168-211-50.zip" "circle-192-168-211-49.zip" "circle 4.log" "circle 3.log" "circle 2.log" "circle (2).yml" "circle (2).log" "circle (1).yml" "circle (1).log" "CERT check points of cloud service .xlsx" "CERT check points of cloud service -- CircleCI.xlsx" "ccie_id_rsa.pub" "ccie_id_rsa (2).pub" "ccie_id_rsa (1).pub" "ccie_id_rsa" "bec00d1a95312985bc74b0d72b5a35f5.png" "basic.ics" "Backup-codes-idavis.txt" "avantcredit-circleci.rli" "avant_terraform.tf" "avant_terraform (1).tf" "atom-mac.zip" "altvil.rli" "Alfred_2.8_414.zip" "AlexanderBeltzResume-Jan2016.pdf" "AlexanderBeltzResume-Jan2016 (1).pdf" "2u.pub" "20958350992-486217809-ticket.pdf" "1Password-5.4.zip" "1703000-viking.jpg" "10-21_CircleCI_Clickthru.docx" ".localized" ".DS_Store" "#circleci-services.cf.json#" "../" "./")
+
+ ("/Users/idavis/enterprise-docs/assets/" (22186 27073 0 0) "stylesheets/" "javascripts/" "code/" "aws/" "../" "./")
+
+ ("/Users/idavis/enterprise-docs/" (22213 6372 0 0) "terms/" "robots.txt" "README.md" "index.md" "img/" "Gemfile.lock" "Gemfile" "favicon.ico" "circle.yml" "cdn-invalidation.json" "bin/" "assets/" "articles/" "_site/" "_posts/" "_layouts/" "_includes/" "_config.yml" ".ruby-version" ".gitignore" ".git/" ".bundle/" "../" "./")
+
+ ("/Users/idavis/travis-install/" (22210 20280 0 0) "travis.tf" ".git/" "../" "./")
+
+ ("/Users/idavis/circle/script/deploy/" (22194 43251 0 0) "prepare-nginx.sh" "preload-btrfs.sh" "../" "./")
+
+ ("/Users/idavis/circle/script/" (22164 23657 0 0) "run-enterprise.sh" "run-dev.sh" "run-dev-osx.sh" "run-dev-enterprise.sh" "publish/" "install-and-run-mongo.sh" "fetch-assets.sh" "deploy/" "bootstrap-db.sh" "../" "./")
+
+ ("/Users/idavis/enterprise-install/CircleCIGracefulTermination/" (22210 25085 0 0) "node_modules/" "circleci.js" "../" "./")
+
+ ("/Users/idavis/circle/src/circle/backend/build/state/" (22194 43251 0 0) "runtime.clj" "acquire.clj" "../" "./")
+
+ ("/Users/idavis/circle/src/circle/backend/admin/" (22194 43251 0 0) "self_checks.clj" "introspection.clj" "image.clj" "health.clj" "ec2.clj" "db.clj" "../" "./")
+
+ ("/Users/idavis/eng-lunch/src/eng_lunch/" (22160 15160 0 0) "schema.clj" "../" "./")
+
+ ("/Users/idavis/eng-lunch/" (22160 15168 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" "LICENSE" "doc/" "dev-resources/" "CHANGELOG.md" ".hgignore" ".gitignore" "../" "./")
+
+ ("/Users/idavis/circle/src/circle/backend/api/client/" (22055 55891 0 0) "system.clj" "../" "./")
+
+ ("/Users/idavis/circle/src/circle/backend/api/" (22055 55891 0 0) "client/" "../" "./")
+
+ ("/Users/idavis/eng-lunch/src/" (22154 60742 0 0) "eng_lunch/" "../" "./")
+
+ ("/Users/idavis/frontend-private/src-cljs/" (22057 31624 0 0) "js/" "frontend/" "../" "./")
+
+ ("/Users/idavis/frontend-private/src/" (22057 31624 0 0) "frontend/" "../" "./")
+
+ ("/Users/idavis/circle/src/circle/api/client/" (22055 55891 0 0) "system.clj" "../" "./")
+
+ ("/Users/idavis/circle/src/circle/api/" (22055 55891 0 0) "client/" "../" "./")
+
+ ("/Users/idavis/circle/src/circle/backend/http/" (22055 55891 0 0) "paths.clj" "api/" "../" "./")
+
+ ("/Users/" (22053 15185 0 0) "Shared/" "idavis/" "Guest/" ".localized" "../" "./")
+
+ ("/Users/idavis/circle/test/" (22055 55891 0 0) "circle/" "../" "./")
+
+ ("/Users/idavis/circle/src/circle/test/" (22055 55891 0 0) "util/" "junit.clj" "flaky.clj" "../" "./")
+
+ ("/Users/idavis/circle/src/" (22055 55891 0 0) "circle/" "../" "./")
+
+ ("/Users/idavis/circle/dev-resources/" (22055 55891 0 0) "secrets/" "README.md" "mongo-confs/" "logback-test.xml" "log4j.xml" "dev-secrets.edn" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

@@ -4,7 +4,7 @@
   lgs = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --stat
   lga = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --all
   lgd = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit -p
-  diff = diff --color --color-words --abbrev
+  diff = diff --color --abbrev
   ci = commit -v
   cia = commit -va
   cip = commit -vp
@@ -15,11 +15,11 @@
   ;; co = "!f() { git checkout $@ && git submodule update --init --recursive; }; f"
   top = "!f() { $@; }; f"
   bs = "!f() { git bisect $@ && git submodule update --init --recursive; }; f"
-  push = !grb push
   prune-merged = !git branch --merged master | grep -v 'master$' | xargs git branch -d
   prune-merged-remote = !git branch -r --merged master | grep -v 'master$' | grep -v 'DEPLOYED' | sed 's/ *origin\\///' | xargs -I% echo git push origin :%
   up = !git pull --ff-only --all -p && git submodule update --init --recursive && git prune-merged
-  pu = !grb push
+  pu = "![[ $(git config \"branch.$(git rev-parse --abbrev-ref HEAD).merge\") = '' ]] && git push -u || git push"
+  cmp = compare
   br = branch -vv
   wipe = !git add -A && git commit -qm 'WIPE SAVEPOINT' && git reset HEAD~1 --hard
   ec = config --global -e
@@ -30,13 +30,20 @@
   interactive = auto
   status = auto
 [tig]
-  show-id = yes
+  main-view-id = true
 [push]
-  default = upstream
+  default = current
 [user]
   name = Ian Davis
   email = jungziege@gmail.com
+  useconfigonly = true
 [merge]
   conflictstyle = diff3
 [core]
-	excludesfile = /Users/ian/.gitignore_global
+  excludesfile = /Users/ian/.gitignore_global
+[branch]
+  autosetuprebase = always
+[help]
+  autocorrect = 1
+[rerere]
+  enabled = 1
