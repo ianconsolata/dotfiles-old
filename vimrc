@@ -91,6 +91,8 @@ imap <Right>  <Nop>
 map j gj
 map k gk
 
+imap jj <Esc>
+
 set backspace=2
 
 
