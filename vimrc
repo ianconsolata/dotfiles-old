@@ -78,8 +78,8 @@ set smartindent tabstop=2 shiftwidth=2 expandtab
 set wildmode=list:full,list:longest
 set wildignore+=*.swp,*.o,*.obj,.git,*.rbc,*.class,.svn,vendor/gems/*
 
-map <Up> 
-map <Down> 
+map <Up> <Nop>
+map <Down> <Nop>
 map <Left> <Nop>
 map <Right> <Nop>
 
