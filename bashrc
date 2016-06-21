@@ -11,7 +11,7 @@ export LEIN_ROOT=1
 
 export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 export EDITOR=vim
-alias emacs='open -a /Applications/Emacs.app $1'
+alias vim=gvim
 
 alias run_stylus="stylus -w -u nib -o resources/target/css ./style/*.styl"
 

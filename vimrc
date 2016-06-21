@@ -31,6 +31,9 @@ Plugin 'eapache/rainbow_parentheses.vim'
 Plugin 'guns/vim-clojure-highlight'
 Plugin 'vim-scripts/paredit.vim'
 
+" GPG
+Plugin 'jamessan/vim-gnupg'
+
 "Javascript
 Plugin 'jelera/vim-javascript-syntax'
 
@@ -56,6 +59,7 @@ call vundle#end()
 
 filetype plugin indent on
 syntax on
+set hidden
 
 set noswapfile
 
@@ -75,8 +79,9 @@ set undolevels=3000
 set nowrap
 set smartindent tabstop=2 shiftwidth=2 expandtab
 
-set wildmode=list:full,list:longest
 set wildignore+=*.swp,*.o,*.obj,.git,*.rbc,*.class,.svn,vendor/gems/*
+set wildmode=longest,list,full
+set wildmenu
 
 map <Up> <Nop>
 map <Down> <Nop>
@@ -97,6 +102,9 @@ set backspace=2
 
 
 set showcmd
+
+"override default GUI settings to turn off scrollbars.
+set guioptions=a
 
 "Ruby
 set tags+=gems.tags
