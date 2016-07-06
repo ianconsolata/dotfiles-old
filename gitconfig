@@ -22,6 +22,7 @@
   cmp = compare
   br = branch -vv
   wipe = !git add -A && git commit -qm 'WIPE SAVEPOINT' && git reset HEAD~1 --hard
+  wip = !git add -A && git commit -qm 'WIP'
   ec = config --global -e
 [color]
   branch = auto

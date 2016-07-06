@@ -6,4 +6,6 @@
 
 brew install macvim --with-override-system-vim
 
+git clone --depth=1 git@github.com:burke/matcher.git; cd matcher; make install; cd ..; rm -rf matcher
+
 vim +PluginInstall +qall
