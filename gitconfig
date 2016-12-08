@@ -18,9 +18,9 @@
   prune-merged = !git branch --merged master | grep -v 'master$' | xargs git branch -d
   prune-merged-remote = !git branch -r --merged master | grep -v 'master$' | grep -v 'DEPLOYED' | sed 's/ *origin\\///' | xargs -I% echo git push origin :%
   up = !git pull --ff-only --all -p && git submodule update --init --recursive && git prune-merged
-  pu = "![[ $(git config \"branch.$(git rev-parse --abbrev-ref HEAD).merge\") = '' ]] && git push -u || git push"
+  pf = push --force-with-lease
   cmp = compare
-  br = branch -vv
+  br = branch -vv --sort=-committerdate
   wipe = !git add -A && git commit -qm 'WIPE SAVEPOINT' && git reset HEAD~1 --hard
   wip = !git add -A && git commit -qm 'WIP'
   ec = config --global -e
