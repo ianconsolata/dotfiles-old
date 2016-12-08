@@ -1,6 +1,7 @@
 #view using vim
 alias view="vim -R"
 
+source ~/bin/bashrc-private.sh
 export TERM="xterm-256color"
 
 alias ls='ls -pG'
@@ -9,11 +10,10 @@ alias la='ls -pGla'
 
 export LEIN_ROOT=1
 
-export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
+export PATH="/usr/local/opt/gnu-tar/libexec/gnubin:/Users/idavis/bin:/usr/local/bin:/usr/local/sbin:$PATH"
 export EDITOR=vim
-alias vim=gvim
-
-alias run_stylus="stylus -w -u nib -o resources/target/css ./style/*.styl"
+set -o vi
+alias macvim=gvim
 
 alias ':e'='vim'
 alias ':q'='exit'
@@ -22,8 +22,10 @@ alias git=hub
 alias g=git
 alias gst="git st"
 
-alias aj="ag -G '\.(clj|cljs)$'"
-alias agcss="ag -G '\.(css|less)$'"
+alias aj="ag -G '\.(clj|cljs)$' -Q"
+alias agcss="ag -G '\.(css|less)$' -Q"
+alias ag="ag -Q"
+alias ogag="/usr/local/bin/ag"
 
 alias highlight_clipboard="pbpaste | highlight --font-size 24 --font Inconsolata --style zenburn --syntax=js -O rtf | pbcopy"
 
