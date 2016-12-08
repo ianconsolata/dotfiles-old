@@ -55,6 +55,12 @@ Plugin 'tikhomirov/vim-glsl'
 "NodeJS
 Plugin 'moll/vim-node'
 
+"Mustache
+Plugin 'mustache/vim-mustache-handlebars'
+
+"Terraform
+Plugin 'hashivim/vim-terraform'
+
 call vundle#end()
 
 filetype plugin indent on
@@ -83,15 +89,15 @@ set wildignore+=*.swp,*.o,*.obj,.git,*.rbc,*.class,.svn,vendor/gems/*
 set wildmode=longest,list,full
 set wildmenu
 
-map <Up> <Nop>
-map <Down> <Nop>
-map <Left> <Nop>
-map <Right> <Nop>
-
-imap <Up>     <Nop>
-imap <Down>   <Nop>
-imap <Left>   <Nop>
-imap <Right>  <Nop>
+"map <Up> <Nop>
+"map <Down> <Nop>
+"map <Left> <Nop>
+"map <Right> <Nop>
+"
+"imap <Up>     <Nop>
+"imap <Down>   <Nop>
+"imap <Left>   <Nop>
+"imap <Right>  <Nop>
 
 map j gj
 map k gk
@@ -164,6 +170,20 @@ set splitright
 
 autocmd InsertEnter * set cursorline
 autocmd InsertLeave * set nocursorline
+
+" Create intermediate directories when writing new files
+function s:MkNonExDir(file, buf)
+    if empty(getbufvar(a:buf, '&buftype')) && a:file!~#'\v^\w+\:\/'
+        let dir=fnamemodify(a:file, ':h')
+        if !isdirectory(dir)
+            call mkdir(dir, 'p')
+        endif
+    endif
+endfunction
+augroup BWCCreateDir
+    autocmd!
+    autocmd BufWritePre * :call s:MkNonExDir(expand('<afile>'), +expand('<abuf>'))
+augroup END   
 
 " Change cursor shape between insert and normal mode in iTerm2.app
 if $TERM_PROGRAM =~ "iTerm"
