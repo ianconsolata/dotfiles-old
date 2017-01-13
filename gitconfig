@@ -44,8 +44,6 @@
   excludesfile = /Users/ian/.gitignore_global
 [branch]
   autosetuprebase = always
-[help]
-  autocorrect = 1
 [rerere]
   enabled = 1
 [url "ssh://git@github.com"]
