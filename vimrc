@@ -47,6 +47,7 @@ call vundle#end()
 filetype plugin indent on
 syntax on
 set hidden
+set clipboard=unnamed
 
 set noswapfile
 
@@ -56,6 +57,7 @@ set modelines=0
 set noshowmode
 set cursorline
 set relativenumber
+set mouse=a
 
 set hlsearch
 set incsearch
@@ -164,7 +166,7 @@ endfunction
 augroup BWCCreateDir
     autocmd!
     autocmd BufWritePre * :call s:MkNonExDir(expand('<afile>'), +expand('<abuf>'))
-augroup END   
+augroup END
 
 " Change cursor shape between insert and normal mode in iTerm2.app
 if $TERM_PROGRAM =~ "iTerm"
