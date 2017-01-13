@@ -3,7 +3,8 @@ filetype off
 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-Plugin 'gmarik/Vundle.vim'
+
+Plugin 'VundleVim/Vundle.vim'
 
 "General
 Plugin 'chriskempson/vim-tomorrow-theme'
@@ -23,43 +24,23 @@ Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'majutsushi/tagbar'
 Plugin 'scrooloose/nerdtree'
 Plugin 'lilydjwg/colorizer'
+Plugin 'vim-syntastic/syntastic'
+Plugin 'tpope/vim-repeat'
 
 "Clojure
 Plugin 'tpope/vim-fireplace'
 Plugin 'guns/vim-clojure-static'
 Plugin 'eapache/rainbow_parentheses.vim'
 Plugin 'guns/vim-clojure-highlight'
-Plugin 'vim-scripts/paredit.vim'
+Plugin 'guns/vim-sexp'
+Plugin 'tpope/vim-sexp-mappings-for-regular-people'
 
-" GPG
-Plugin 'jamessan/vim-gnupg'
-
-"Javascript
-Plugin 'jelera/vim-javascript-syntax'
-
-"Puppet
-Plugin 'rodjek/vim-puppet'
-
-"GoLang
-Plugin 'fatih/vim-go'
-
-"Arduino
-Plugin 'sudar/vim-arduino-syntax'
-
-"OpenGl
-Plugin 'tikhomirov/vim-glsl'
-
-"C/C++
-"Bundle "gilligan/vim-lldb"
-
-"NodeJS
-Plugin 'moll/vim-node'
-
-"Mustache
-Plugin 'mustache/vim-mustache-handlebars'
-
-"Terraform
-Plugin 'hashivim/vim-terraform'
+Plugin 'jamessan/vim-gnupg' " GPG
+Plugin 'jelera/vim-javascript-syntax' "Javascript
+Plugin 'groenewege/vim-less'
+Plugin 'fatih/vim-go' "GoLang
+Plugin 'sudar/vim-arduino-syntax' "Arduino
+Plugin 'hashivim/vim-terraform' "Terraform
 
 call vundle#end()
 
