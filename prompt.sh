@@ -109,6 +109,7 @@ function git_prompt {
 }
 
 function ps1 {
+#  PROMPT="👻  "
   if [ "$?" -eq "0" ]; then
     PROMPT="$Blue:)$Color_Off "
   else
