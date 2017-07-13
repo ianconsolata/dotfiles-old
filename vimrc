@@ -57,7 +57,12 @@ set modelines=0
 set noshowmode
 set cursorline
 set relativenumber
+
+set ttyfast
 set mouse=a
+if has('mouse_sgr')
+    set ttymouse=sgr
+endif
 
 set hlsearch
 set incsearch
