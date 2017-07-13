@@ -122,7 +122,6 @@ au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
-au Syntax * RainbowParenthesesLoadChevrons
 
 let g:clojure_align_multiline_strings = 1
 au FileType clojure nmap <space> :Eval<CR>
