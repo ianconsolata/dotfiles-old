@@ -135,7 +135,4 @@ fi
 
 source ~/.prompt.sh
 
-# added by travis gem
-[ -f /Users/ian/.travis/travis.sh ] && source /Users/ian/.travis/travis.sh
-
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
