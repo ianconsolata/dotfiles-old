@@ -1,5 +1,8 @@
 #! /bin/bash
 
+for file in vim vimrc emacs.d emacs bash_profile bashrc gitconfig gitignore_global prompt.sh git-prompt.sh; do
+  ln -sf ~/.dotfiles/$file ~/.$file;
+done
 
 # install Homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
