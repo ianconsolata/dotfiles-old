@@ -14,7 +14,7 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-
+Plugin 'luochen1990/rainbow'
 Plugin 'rking/ag.vim'
 Plugin 'Chun-Yang/vim-action-ag'
 Plugin 'christoomey/vim-tmux-navigator'
@@ -30,13 +30,13 @@ Plugin 'tpope/vim-repeat'
 "Clojure
 Plugin 'tpope/vim-fireplace'
 Plugin 'guns/vim-clojure-static'
-Plugin 'eapache/rainbow_parentheses.vim'
 Plugin 'guns/vim-clojure-highlight'
 Plugin 'guns/vim-sexp'
 Plugin 'tpope/vim-sexp-mappings-for-regular-people'
 
 Plugin 'jamessan/vim-gnupg' " GPG
-Plugin 'jelera/vim-javascript-syntax' "Javascript
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
 Plugin 'groenewege/vim-less'
 Plugin 'fatih/vim-go' "GoLang
 Plugin 'sudar/vim-arduino-syntax' "Arduino
@@ -118,20 +118,21 @@ set tags+=gems.tags
 
 "Clojure
 set viminfo+=!
-au VimEnter * RainbowParenthesesToggle
-au Syntax * RainbowParenthesesLoadRound
-au Syntax * RainbowParenthesesLoadSquare
-au Syntax * RainbowParenthesesLoadBraces
+let g:rainbow_active = 1 "0 if you want to enable it later via :RainbowToggle
 
 let g:clojure_align_multiline_strings = 1
 au FileType clojure nmap <space> :Eval<CR>
 au FileType clojure nmap <leader><space> :%Eval<CR>
 au FileType clojure nmap cpt :.RunTests<CR>
 
+"Terraform
+let g:terraform_fmt_on_save = 1
+
 "Ctrlp
 let g:ctrlp_arg_map = 1
 let g:ctrlp_working_path_mode = ''
 let g:ctrlp_custom_ignore = '\.git$\|\.hg$\|\.svn$|cassettes'
+let g:ctrlp_show_hidden = 1
 let g:ctrlp_user_command = [
     \ '.git', 'cd %s && git ls-files . -co --exclude-standard',
     \ 'find %s -type f'
@@ -240,6 +241,7 @@ end
 "Better whitespace
 highlight ExtraWhitespace ctermbg=Blue
 nmap <Leader>s :StripWhitespace<CR>
+autocmd BufWritePre * :%s/\s\+$//e
 
 "Golang support (defaults from fatih/vim-go readme)
 au FileType go nmap <Leader>i <Plug>(go-info)
