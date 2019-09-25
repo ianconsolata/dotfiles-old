@@ -56,7 +56,6 @@ set cc=81
 set modelines=0
 set noshowmode
 set cursorline
-set relativenumber
 
 set ttyfast
 set mouse=a
